@@ -10,12 +10,12 @@
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/animations.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
   </head>
@@ -35,7 +35,7 @@
       <header id="site_header" class="header mobile-menu-hide">
         <div class="header-content clearfix">
           <div class="my-photo">
-            <img src="images/photo.jpg" alt="image">
+            <img src="{{ asset('assets/images/photo.jpg') }}" alt="image">
           </div>
 
           <div class="site-title-block">
@@ -89,7 +89,7 @@
         <div class="mobile-logo-container">
           <div class="mobile-header-image">
             <a href="#">
-                <img src="images/photo.jpg" alt="image">
+                <img src="{{ asset('assets/images/photo.jpg') }}" alt="image">
             </a>
           </div>
           <div class="mobile-site-title"><a href="#">Alex Smith</a></div>
@@ -264,7 +264,7 @@
                             <div class="testimonial-credits">
                               <!-- Picture -->
                               <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-2.jpg" alt="Gary Johnson"/>
+                                <img src="{{ asset('assets/images/testimonials/testimonial-2.jpg') }}" alt="Gary Johnson"/>
                               </div>              
                               <!-- /Picture -->
                               <!-- Testimonial author information -->
@@ -293,7 +293,7 @@
                             <div class="testimonial-credits">
                               <!-- Picture -->
                               <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-1.jpg" alt="Daniel Pringle"/>
+                                <img src="{{ asset('assets/images/testimonials/testimonial-1.jpg') }}" alt="Daniel Pringle"/>
                               </div>              
                               <!-- /Picture -->
                               <!-- Testimonial author information -->
@@ -321,7 +321,7 @@
                             <div class="testimonial-credits">
                               <!-- Picture -->
                               <div class="testimonial-picture">
-                                <img src="images/testimonials/testimonial-3.jpg" alt="Billy Adams"/>
+                                <img src="{{ asset('assets/images/testimonials/testimonial-3.jpg') }}" alt="Billy Adams"/>
                               </div>              
                               <!-- /Picture -->
                               <!-- Testimonial author information -->
@@ -354,37 +354,37 @@
                         <div class="clients owl-carousel">
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-7.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-7.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-6.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-6.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-5.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-5.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-4.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-4.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-3.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-3.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-2.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-2.png') }}" alt="Logo">
                             </a>
                           </div>
                           <div class="client-block">
                             <a href="#" target="_blank" title="Logo">
-                              <img src="images/clients/client-1.png" alt="Logo">
+                              <img src="{{ asset('assets/images/clients/client-1.png') }}" alt="Logo">
                             </a>
                           </div>  
                         </div>
@@ -721,7 +721,7 @@
                           <!-- Portfolio Project 1 -->
                           <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
+                              <img src="{{ asset('assets/images/portfolio/1.jpg') }}" alt="SoundCloud Audio" title="" />
                               <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
                             </div>
 
@@ -734,7 +734,7 @@
                           <!-- Portfolio Project 2 -->
                           <figure class="item standard" data-groups='["category_all", "category_media"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/2.jpg" alt="Media Project 2" title="" />
+                              <img src="{{ asset('assets/images/portfolio/2.jpg') }}" alt="Media Project 2" title="" />
                               <a href="portfolio-1.html" class="ajax-page-load"></a>
                             </div>
 
@@ -747,7 +747,7 @@
                           <!-- Portfolio Project 3 -->
                           <figure class="item lbvideo" data-groups='["category_all", "category_vimeo-videos"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
+                              <img src="{{ asset('assets/images/portfolio/3.jpg') }}" alt="Vimeo Video 1" title="" />
                               <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
                             </div>
 
@@ -760,7 +760,7 @@
                           <!-- Portfolio Project 4 -->
                           <figure class="item standard" data-groups='["category_all", "category_media"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/4.jpg" alt="Media Project 1" title="" />
+                              <img src="{{ asset('assets/images/portfolio/4.jpg') }}" alt="Media Project 1" title="" />
                               <a href="portfolio-1.html" class="ajax-page-load"></a>
                             </div>
 
@@ -773,8 +773,8 @@
                           <!-- Portfolio Project 5 -->
                           <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/5.jpg" alt="Mockup Design 1" title="" />
-                              <a class="lightbox" title="Mockup Design 1" href="images/portfolio/5.jpg"></a>
+                              <img src="{{ asset('assets/images/portfolio/5.jpg') }}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Mockup Design 1" href="{{ asset('assets/images/portfolio/5.jpg') }}"></a>
                             </div>
 
                             <i class="far fa-image"></i>
@@ -786,7 +786,7 @@
                           <!-- Portfolio Project 6 -->
                           <figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                              <img src="{{ asset('assets/images/portfolio/6.jpg') }}" alt="YouTube Video 1" title="" />
                               <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
                             </div>
 
@@ -799,7 +799,7 @@
                           <!-- Portfolio Project 7 -->
                           <figure class="item standard" data-groups='["category_all", "category_media"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/5.jpg" alt="Media Project 1" title="" />
+                              <img src="{{ asset('assets/images/portfolio/5.jpg') }}" alt="Media Project 1" title="" />
                               <a href="portfolio-1.html" class="ajax-page-load"></a>
                             </div>
 
@@ -812,8 +812,8 @@
                           <!-- Portfolio Project 8 -->
                           <figure class="item lbimage" data-groups='["category_all", "category_mockups"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/6.jpg" alt="Mockup Design 1" title="" />
-                              <a class="lightbox" title="Mockup Design 1" href="images/portfolio/6.jpg"></a>
+                              <img src="{{ asset('assets/images/portfolio/6.jpg') }}" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" title="Mockup Design 1" href="{{ asset('assets/images/portfolio/6.jpg') }}"></a>
                             </div>
 
                             <i class="far fa-image"></i>
@@ -853,7 +853,7 @@
                                 <a href="#" title="View all posts in UI">UI</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_6.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                <img src="{{ asset('assets/images/blog/blog_post_6.jpg') }}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -875,7 +875,7 @@
                                 <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_5.jpg" class="size-blog-masonry-image-two-c " alt="Designing the Perfect Feature Comparison Table" title="" />
+                                <img src="{{ asset('assets/images/blog/blog_post_5.jpg') }}" class="size-blog-masonry-image-two-c " alt="Designing the Perfect Feature Comparison Table" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -897,7 +897,7 @@
                                 <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_4.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title=""/>
+                                <img src="{{ asset('assets/images/blog/blog_post_4.jpg') }}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title=""/>
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -919,7 +919,7 @@
                                 <a href="#" title="View all posts in Design">Design</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_3.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                <img src="{{ asset('assets/images/blog/blog_post_3.jpg') }}" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
                                 <div class="mask"></div>
                                 </a>
                             </div>
@@ -941,7 +941,7 @@
                                 <a href="#" title="View all posts in UI">UI</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Creative and Innovative Navigation Designs" title="" />
+                                <img src="{{ asset('assets/images/blog/blog_post_2.jpg') }}" class="size-blog-masonry-image-two-c" alt="Creative and Innovative Navigation Designs" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -963,7 +963,7 @@
                                 <a href="#" title="View all posts in Design">Design</a>
                               </div>
                               <a href="blog-post-1.html">
-                                <img src="images/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
+                                <img src="{{ asset('assets/images/blog/blog_post_1.jpg') }}" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
                                 <div class="mask"></div>
                               </a>
                             </div>
@@ -1104,19 +1104,19 @@
       <!-- /Main Content -->
     </div>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-2.1.3.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.malihu.PageScroll2id.min.js') }}"></script>
+    <script src="{{ asset('assets/js/validator.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.shuffle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/masonry.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/jquery.googlemap.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{ asset('assets/js/jquery.googlemap.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
   </body>
 </html>
