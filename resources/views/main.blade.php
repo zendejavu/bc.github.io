@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Kerge - Resume / CV / vCard Template</title>
+    <title>PT. Balla Cerdas Technology</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Kerge - Resume / CV / vCard Template" />
+    <meta name="description" content="PT. Balla Cerdas Technology" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" type="text/css">
 
-    <script src="js/modernizr.custom.js"></script>
+    <script src="{{ asset('assets/js/modernizr.custom.js') }}"></script>
   </head>
 
   <body>
@@ -35,11 +35,11 @@
       <header id="site_header" class="header mobile-menu-hide">
         <div class="header-content clearfix">
           <div class="my-photo">
-            <img src="{{ asset('assets/images/photo.jpg') }}" alt="image">
+            <img src="{{ asset('assets/images/tes.png') }}" alt="image">
           </div>
 
           <div class="site-title-block">
-            <div class="site-title">Alex Smith</div>
+            <div class="site-title">Balla Cerdas</div>
           </div>
 
           <!-- Navigation -->
@@ -89,10 +89,10 @@
         <div class="mobile-logo-container">
           <div class="mobile-header-image">
             <a href="#">
-                <img src="{{ asset('assets/images/photo.jpg') }}" alt="image">
+                <img src="{{ asset('assets/images/tes.png') }}" alt="image">
             </a>
           </div>
-          <div class="mobile-site-title"><a href="#">Alex Smith</a></div>
+          <div class="mobile-site-title"><a href="#">Balla Cerdas</a></div>
         </div>
 
         <a class="menu-toggle mobile-visible">
@@ -119,7 +119,7 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="title-block">
-                      <h2>Alex Smith</h2>
+                      <h2>PT. Balla Cerdas Technology</h2>
                       <div class="owl-carousel text-rotation">                                    
                         <div class="item">
                           <div class="sp-subtitle">Web Designer</div>
@@ -395,17 +395,17 @@
                   <!-- /Clients Block -->
 
                   <!-- Fun Facts Block -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
+                  <!-- <div class="row"> -->
+                    <!-- <div class="col-xs-12 col-sm-12"> -->
                       <!-- Fun Facts Block Title -->
-                      <div class="block-title">
+                      <!-- <div class="block-title">
                         <h3>Fun Facts</h3>
-                      </div>
+                      </div> -->
                       <!-- /Fun Facts Block Title -->
-                    </div>
+                    <!-- </div> -->
 
                     <!-- Fun Fact 1 -->
-                    <div class="col-xs-12 col-sm-3">
+                    <!-- <div class="col-xs-12 col-sm-3">
                       <div class="col-inner bs-30">
                         <div class="lm-info-block">
                           <i class="lnr lnr-smile"></i>
@@ -414,11 +414,11 @@
                           <span class="lm-info-block-text"></span>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- /Fun Fact 1 -->
 
                     <!-- Fun Fact 2 -->
-                    <div class="col-xs-12 col-sm-3">
+                    <!-- <div class="col-xs-12 col-sm-3">
                       <div class="col-inner bs-30">
                         <div class="lm-info-block gray-bg">
                           <i class="lnr lnr-clock"></i>
@@ -427,11 +427,11 @@
                           <span class="lm-info-block-text"></span>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- /Fun Fact 2 -->
 
                     <!-- Fun Fact 3 -->
-                    <div class="col-xs-12 col-sm-3">
+                    <!-- <div class="col-xs-12 col-sm-3">
                       <div class="col-inner bs-30">
                         <div class="lm-info-block">
                           <i class="lnr lnr-checkmark-circle"></i>
@@ -440,11 +440,11 @@
                           <span class="lm-info-block-text"></span>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- /Fun Fact 3 -->
 
                     <!-- Fun Fact 4 -->
-                    <div class="col-xs-12 col-sm-3">
+                    <!-- <div class="col-xs-12 col-sm-3">
                       <div class="col-inner bs-30">
                         <div class="lm-info-block gray-bg">
                           <i class="lnr lnr-coffee-cup"></i>
@@ -453,9 +453,9 @@
                           <span class="lm-info-block-text"></span>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- /Fun Fact 4 -->
-                  </div>
+                  <!-- </div> -->
                   <!-- /Fun Facts -->
                 </div>
               </div>
@@ -549,122 +549,122 @@
                       </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
-                      <div class="col-inner">
+                    <!-- <div class="col-xs-12 col-sm-4"> -->
+                      <!-- <div class="col-inner"> -->
 
-                        <div class="block-title">
+                        <!-- <div class="block-title">
                           <h3>Design Skills<span></span></h3>
-                        </div>
+                        </div> -->
 
-                        <div class="skills-info skills-second-style">
+                        <!-- <div class="skills-info skills-second-style"> -->
                           <!-- Skill 1 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Web Design</h4>
                             <div class="skill-value">95%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-1"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 1 -->
 
                           <!-- Skill 2 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Print Design</h4>
                             <div class="skill-value">65%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-2"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 2 -->
 
                           <!-- Skill 3 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Logo Design</h4>
                             <div class="skill-value">80%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-3"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 3 -->
                           
                           <!-- Skill 4 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Graphic Design</h4>
                             <div class="skill-value">90%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-4"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 4 -->
-                        </div>
+                        <!-- </div> -->
 
-                        <div class="block-title ts-10">
+                        <!-- <div class="block-title ts-10">
                           <h3>Coding Skills<span></span></h3>
-                        </div>
+                        </div> -->
 
 
-                        <div class="skills-info skills-second-style">
+                        <!-- <div class="skills-info skills-second-style"> -->
                           <!-- Skill 5 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>JavaScript</h4>
                             <div class="skill-value">85%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-5"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 5 -->
 
                           <!-- Skill 6 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>PHP</h4>
                             <div class="skill-value">70%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-6"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 6 -->
 
                           <!-- Skill 7 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Python</h4>
                             <div class="skill-value">60%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-7"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 7 -->
 
                           <!-- Skill 8 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Perl</h4>
                             <div class="skill-value">75%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-8"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 8 -->
 
                           <!-- Skill 9 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>HTML / CSS</h4>
                             <div class="skill-value">100%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-9"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 9 -->
 
                           <!-- Skill 10 -->
-                          <div class="clearfix">
+                          <!-- <div class="clearfix">
                             <h4>Smarty / Twig</h4>
                             <div class="skill-value">80%</div>
                           </div>
                           <div class="skill-container">
                             <div class="skill-percentage skill-10"></div>
-                          </div>
+                          </div> -->
                           <!-- /Skill 10 -->
-                        </div>
-                      </div>
+                        <!-- </div> -->
+                      <!-- </div> -->
                     </div>
                   </div>
 
