@@ -153,7 +153,7 @@
                   <div class="row bs-30">
                     <div class="col-xs-6 col-sm-6">
                       <h3>I am Web Designer @ Company.com</h3>
-                      <p>Praesent ut tortor consectetur, semper sapien non, lacinia augue. Aenean arcu libero, facilisis et nisi non, tempus faucibus tortor. Mauris vel nulla aliquam, pellentesque enim ac, faucibus tortor. Nulla odio nibh, cursus sit amet urna id, dignissim euismod augue.</p>
+                      <p>Lorem Epsum Praesent ut tortor consectetur, semper sapien non, lacinia augue. Aenean arcu libero, facilisis et nisi non, tempus faucibus tortor. Mauris vel nulla aliquam, pellentesque enim ac, faucibus tortor. Nulla odio nibh, cursus sit amet urna id, dignissim euismod augue.</p>
                       <p>Duis sollicitudin, libero porttitor rutrum ultrices, turpis lorem fermentum justo, quis ornare augue tortor non est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                     </div>
 
@@ -1195,158 +1195,8 @@
             </section>
             <!-- /Portfolio Subpage -->
 
-            <!-- Portofolio Versi 2 from Blog Subpage -->
-            <section class="pt-page" id="portofolio3">
-              <div class="section-inner custom-page-content">
-                <div class="section-title-block second-style">
-                  <h2 class="section-title">Portofolio Versi 2</h2>
-                  <h5 class="section-description">My Works</h5>
-                </div>
-
-                <div class="section-content">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="blog-masonry two-columns clearfix">
-                        
-                        <!-- Blog Post 1 -->
-                        <div class="item post-1">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in UI">UI</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_6.jpg') }}" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">06 Apr 2018</div>
-                              <a href="blog-post-1.html">
-                                <h4 class="blog-item-title">Best Practices for Animated Progress Indicators</h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 1 -->
-
-                        <!-- Blog Post 2 -->
-                        <div class="item post-2">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_5.jpg') }}" class="size-blog-masonry-image-two-c " alt="Designing the Perfect Feature Comparison Table" title="" />
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">06 Apr 2018</div>
-                              <a href="blog-post-1.html">
-                                <h4 class="blog-item-title">Designing the Perfect Feature Comparison Table</h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 2 -->
-
-                        <!-- Blog Post 3 -->
-                        <div class="item post-3">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in E-Commerce">E-Commerce</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_4.jpg') }}" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title=""/>
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">06 Apr 2018</div>
-                              <a href="blog-post-1.html">
-                                <h4 class="blog-item-title">An Overview of E-Commerce Platforms</h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 3 -->
-
-                        <!-- Blog Post 4 -->
-                        <div class="item post-4">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in Design">Design</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_3.jpg') }}" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
-                                <div class="mask"></div>
-                                </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">06 Apr 2018</div>
-                              <a href="blog-post-1.html">
-                                <h4 class="blog-item-title">Why I Switched to Sketch For UI Design</h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 4 -->
-                        
-                        <!-- Blog Post 5 -->
-                        <div class="item post-5">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in UI">UI</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_2.jpg') }}" class="size-blog-masonry-image-two-c" alt="Creative and Innovative Navigation Designs" title="" />
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                                <div class="post-date">06 Apr 2018</div>
-                                <a href="blog-post-1.html">
-                                  <h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4>
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 5 -->
-                        
-                        <!-- Blog Post 6 -->
-                        <div class="item post-6">
-                          <div class="blog-card">
-                            <div class="media-block">
-                              <div class="category">
-                                <a href="#" title="View all posts in Design">Design</a>
-                              </div>
-                              <a href="blog-post-1.html">
-                                <img src="{{ asset('assets/images/blog/blog_post_1.jpg') }}" class="size-blog-masonry-image-two-c" alt="6 Easy Steps to Better Icon Design" title="" />
-                                <div class="mask"></div>
-                              </a>
-                            </div>
-                            <div class="post-info">
-                              <div class="post-date">06 Apr 2018</div>
-                              <a href="blog-post-1.html"><h4 class="blog-item-title">6 Easy Steps to Better Icon Design</h4></a>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End of Blog Post 6 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- /Blog Subpage -->
-
             <!-- Blog Subpage -->
-            <section class="pt-page" id="blog">
+            <!-- <section class="pt-page" id="blog">
               <div class="section-inner custom-page-content">
                 <div class="section-title-block second-style">
                   <h2 class="section-title">Blog</h2>
@@ -1356,10 +1206,10 @@
                 <div class="section-content">
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
-                      <div class="blog-masonry two-columns clearfix">
+                      <div class="blog-masonry two-columns clearfix"> -->
                         
                         <!-- Blog Post 1 -->
-                        <div class="item post-1">
+                        <!-- <div class="item post-1">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1377,11 +1227,11 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 1 -->
 
                         <!-- Blog Post 2 -->
-                        <div class="item post-2">
+                        <!-- <div class="item post-2">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1399,11 +1249,11 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 2 -->
 
                         <!-- Blog Post 3 -->
-                        <div class="item post-3">
+                        <!-- <div class="item post-3">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1421,11 +1271,11 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 3 -->
 
                         <!-- Blog Post 4 -->
-                        <div class="item post-4">
+                        <!-- <div class="item post-4">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1443,11 +1293,11 @@
                               </a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 4 -->
                         
                         <!-- Blog Post 5 -->
-                        <div class="item post-5">
+                        <!-- <div class="item post-5">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1465,11 +1315,11 @@
                                 </a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 5 -->
                         
                         <!-- Blog Post 6 -->
-                        <div class="item post-6">
+                        <!-- <div class="item post-6">
                           <div class="blog-card">
                             <div class="media-block">
                               <div class="category">
@@ -1485,14 +1335,14 @@
                               <a href="blog-post-1.html"><h4 class="blog-item-title">6 Easy Steps to Better Icon Design</h4></a>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- End of Blog Post 6 -->
-                      </div>
+                      <!-- </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
             <!-- /Blog Subpage -->
 
             <!-- Contact Subpage -->
@@ -1507,6 +1357,7 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <div id="map" class="map"></div>
+                      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.3440802340574!2d119.4321095788403!3d-5.182944522450576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1604212458630!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
                     </div>
                   </div>
 
@@ -1627,7 +1478,7 @@
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1xrEzvDnuPZmFoLyTcYPGFYdGLd5vjrU"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="{{ asset('assets/js/jquery.googlemap.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
